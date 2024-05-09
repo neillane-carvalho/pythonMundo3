@@ -1,0 +1,15 @@
+times = ('Atlético-MG', 'Botafogo', 'Corinthians', 'Cruzeiro', 'Flamengo', 'Fluminense',
+         'Grêmio', 'Internacional', 'Palmeiras', 'Santos', 'São Paulo', 'Vasco')
+print('Classificação dos times brasileiros')
+print('-=-' * 30)
+print(f'lista de times: {times}')
+print('-=-' * 30)
+print(f'Os 5 primeiros são {times[0:5]}')
+print('-=-' * 30)
+print(f'Os 4 ultimos são: {times[-4:]}')
+print('-=-' * 30)
+print(f'Times em ordem alfabeticas: {sorted(times)}')
+print('-=-' * 30)
+print(f'A posição do Flamengo {times.index("Flamengo") + 1}ª posição')
+print('-=-' * 30)
+
