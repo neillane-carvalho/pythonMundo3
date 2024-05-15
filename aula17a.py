@@ -10,4 +10,10 @@ lista.reverse()
 print(lista)
 print(f'Essa lista tem {len(lista)} elementos')
 lista.insert(2, 0)
-
+print(lista)
+if 5 in lista:
+    lista.remove(5)
+    print(lista)
+else:
+    print('O valor 5 não foi encontrado na lista')
+print(f'Essa lista tem {len(lista)} elementos')
